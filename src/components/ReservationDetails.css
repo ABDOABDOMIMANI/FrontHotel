@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Container */
+  .reservation-details-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .reservation-details-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Header */
+  .reservation-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 5px;
+  }
+  
+  /* Information Text */
+  .info-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .info-text strong {
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  .action-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .action-link {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .action-link:hover {
+    color: #1abc9c;
+  }
+  
+  .action-link--edit {
+    color: #27ae60;
+  }
+  
+  .action-link--edit:hover {
+    color: #2ecc71;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .reservation-details-container {
+      padding: 15px;
+    }
+  
+    .action-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  
